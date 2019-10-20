@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2190AF1B0B3D0836FADDD53F /* Pods_CrimeStreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE6AC04ECF653A73D487FCF /* Pods_CrimeStreamTests.framework */; };
+		75049476B30DCF7E7F0215DC /* Pods_CrimeStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243778C9B8CFCEDDFD1C7573 /* Pods_CrimeStream.framework */; };
+		D8490AB023520D1D00D0A480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8490AAF23520D1D00D0A480 /* AppDelegate.swift */; };
+		D8490AB223520D1D00D0A480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8490AB123520D1D00D0A480 /* ViewController.swift */; };
+		D8490AB523520D1D00D0A480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8490AB323520D1D00D0A480 /* Main.storyboard */; };
+		D8490AB723520D1F00D0A480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8490AB623520D1F00D0A480 /* Assets.xcassets */; };
+		D8490ABA23520D1F00D0A480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8490AB823520D1F00D0A480 /* LaunchScreen.storyboard */; };
+		D8490AC523520D1F00D0A480 /* CrimeStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8490AC423520D1F00D0A480 /* CrimeStreamTests.swift */; };
+		D8490AD023520D5000D0A480 /* Warnsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8490ACF23520D5000D0A480 /* Warnsystem.swift */; };
+		D8490AD223520D5E00D0A480 /* Funkspruch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8490AD123520D5E00D0A480 /* Funkspruch.swift */; };
+		D8637C16235347E500A1D0DE /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8637C15235347E500A1D0DE /* Tweet.swift */; };
+		D8637C182353492200A1D0DE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8637C172353492200A1D0DE /* Event.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8490AC123520D1F00D0A480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8490AA423520D1D00D0A480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8490AAB23520D1D00D0A480;
+			remoteInfo = CrimeStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		243778C9B8CFCEDDFD1C7573 /* Pods_CrimeStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrimeStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E58DC1CE92E1C813FEAD1 /* Pods-CrimeStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrimeStream.debug.xcconfig"; path = "Target Support Files/Pods-CrimeStream/Pods-CrimeStream.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA49DFC73E63AF0889B6383 /* Pods-CrimeStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrimeStream.release.xcconfig"; path = "Target Support Files/Pods-CrimeStream/Pods-CrimeStream.release.xcconfig"; sourceTree = "<group>"; };
+		8C9D4117FF8841A2E42D9919 /* Pods-CrimeStreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrimeStreamTests.release.xcconfig"; path = "Target Support Files/Pods-CrimeStreamTests/Pods-CrimeStreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8490AAC23520D1D00D0A480 /* CrimeStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrimeStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8490AAF23520D1D00D0A480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8490AB123520D1D00D0A480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8490AB423520D1D00D0A480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8490AB623520D1F00D0A480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8490AB923520D1F00D0A480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8490ABB23520D1F00D0A480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8490AC023520D1F00D0A480 /* CrimeStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrimeStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8490AC423520D1F00D0A480 /* CrimeStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimeStreamTests.swift; sourceTree = "<group>"; };
+		D8490AC623520D1F00D0A480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8490ACF23520D5000D0A480 /* Warnsystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warnsystem.swift; sourceTree = "<group>"; };
+		D8490AD123520D5E00D0A480 /* Funkspruch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funkspruch.swift; sourceTree = "<group>"; };
+		D8637C15235347E500A1D0DE /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		D8637C172353492200A1D0DE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F55271150F88DAB25F196A49 /* Pods-CrimeStreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrimeStreamTests.debug.xcconfig"; path = "Target Support Files/Pods-CrimeStreamTests/Pods-CrimeStreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE6AC04ECF653A73D487FCF /* Pods_CrimeStreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrimeStreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8490AA923520D1D00D0A480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75049476B30DCF7E7F0215DC /* Pods_CrimeStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8490ABD23520D1F00D0A480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2190AF1B0B3D0836FADDD53F /* Pods_CrimeStreamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517A4B4947EDACFA2910B565 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				520E58DC1CE92E1C813FEAD1 /* Pods-CrimeStream.debug.xcconfig */,
+				5BA49DFC73E63AF0889B6383 /* Pods-CrimeStream.release.xcconfig */,
+				F55271150F88DAB25F196A49 /* Pods-CrimeStreamTests.debug.xcconfig */,
+				8C9D4117FF8841A2E42D9919 /* Pods-CrimeStreamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8490AA323520D1D00D0A480 = {
+			isa = PBXGroup;
+			children = (
+				D8490AAE23520D1D00D0A480 /* CrimeStream */,
+				D8490AC323520D1F00D0A480 /* CrimeStreamTests */,
+				D8490AAD23520D1D00D0A480 /* Products */,
+				517A4B4947EDACFA2910B565 /* Pods */,
+				DD8DF27D6A7E3757C98D8C01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8490AAD23520D1D00D0A480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8490AAC23520D1D00D0A480 /* CrimeStream.app */,
+				D8490AC023520D1F00D0A480 /* CrimeStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8490AAE23520D1D00D0A480 /* CrimeStream */ = {
+			isa = PBXGroup;
+			children = (
+				D8490AAF23520D1D00D0A480 /* AppDelegate.swift */,
+				D8490AB123520D1D00D0A480 /* ViewController.swift */,
+				D8490AB323520D1D00D0A480 /* Main.storyboard */,
+				D8490AB623520D1F00D0A480 /* Assets.xcassets */,
+				D8490AB823520D1F00D0A480 /* LaunchScreen.storyboard */,
+				D8490ABB23520D1F00D0A480 /* Info.plist */,
+				D8490ACF23520D5000D0A480 /* Warnsystem.swift */,
+				D8490AD123520D5E00D0A480 /* Funkspruch.swift */,
+				D8637C15235347E500A1D0DE /* Tweet.swift */,
+				D8637C172353492200A1D0DE /* Event.swift */,
+			);
+			path = CrimeStream;
+			sourceTree = "<group>";
+		};
+		D8490AC323520D1F00D0A480 /* CrimeStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8490AC423520D1F00D0A480 /* CrimeStreamTests.swift */,
+				D8490AC623520D1F00D0A480 /* Info.plist */,
+			);
+			path = CrimeStreamTests;
+			sourceTree = "<group>";
+		};
+		DD8DF27D6A7E3757C98D8C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				243778C9B8CFCEDDFD1C7573 /* Pods_CrimeStream.framework */,
+				FDE6AC04ECF653A73D487FCF /* Pods_CrimeStreamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8490AAB23520D1D00D0A480 /* CrimeStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8490AC923520D1F00D0A480 /* Build configuration list for PBXNativeTarget "CrimeStream" */;
+			buildPhases = (
+				5624BF0D404B52E673FC0118 /* [CP] Check Pods Manifest.lock */,
+				D8490AA823520D1D00D0A480 /* Sources */,
+				D8490AA923520D1D00D0A480 /* Frameworks */,
+				D8490AAA23520D1D00D0A480 /* Resources */,
+				9BFD034E04FB9CE023EC9366 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrimeStream;
+			productName = CrimeStream;
+			productReference = D8490AAC23520D1D00D0A480 /* CrimeStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8490ABF23520D1F00D0A480 /* CrimeStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8490ACC23520D1F00D0A480 /* Build configuration list for PBXNativeTarget "CrimeStreamTests" */;
+			buildPhases = (
+				D1479AF762F6976C9111EAEC /* [CP] Check Pods Manifest.lock */,
+				D8490ABC23520D1F00D0A480 /* Sources */,
+				D8490ABD23520D1F00D0A480 /* Frameworks */,
+				D8490ABE23520D1F00D0A480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8490AC223520D1F00D0A480 /* PBXTargetDependency */,
+			);
+			name = CrimeStreamTests;
+			productName = CrimeStreamTests;
+			productReference = D8490AC023520D1F00D0A480 /* CrimeStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8490AA423520D1D00D0A480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = matscodes;
+				TargetAttributes = {
+					D8490AAB23520D1D00D0A480 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D8490ABF23520D1F00D0A480 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D8490AAB23520D1D00D0A480;
+					};
+				};
+			};
+			buildConfigurationList = D8490AA723520D1D00D0A480 /* Build configuration list for PBXProject "CrimeStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8490AA323520D1D00D0A480;
+			productRefGroup = D8490AAD23520D1D00D0A480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8490AAB23520D1D00D0A480 /* CrimeStream */,
+				D8490ABF23520D1F00D0A480 /* CrimeStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8490AAA23520D1D00D0A480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8490ABA23520D1F00D0A480 /* LaunchScreen.storyboard in Resources */,
+				D8490AB723520D1F00D0A480 /* Assets.xcassets in Resources */,
+				D8490AB523520D1D00D0A480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8490ABE23520D1F00D0A480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5624BF0D404B52E673FC0118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrimeStream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFD034E04FB9CE023EC9366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrimeStream/Pods-CrimeStream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrimeStream/Pods-CrimeStream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrimeStream/Pods-CrimeStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1479AF762F6976C9111EAEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrimeStreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8490AA823520D1D00D0A480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8490AD023520D5000D0A480 /* Warnsystem.swift in Sources */,
+				D8637C16235347E500A1D0DE /* Tweet.swift in Sources */,
+				D8490AB223520D1D00D0A480 /* ViewController.swift in Sources */,
+				D8490AD223520D5E00D0A480 /* Funkspruch.swift in Sources */,
+				D8637C182353492200A1D0DE /* Event.swift in Sources */,
+				D8490AB023520D1D00D0A480 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8490ABC23520D1F00D0A480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8490AC523520D1F00D0A480 /* CrimeStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8490AC223520D1F00D0A480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8490AAB23520D1D00D0A480 /* CrimeStream */;
+			targetProxy = D8490AC123520D1F00D0A480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8490AB323520D1D00D0A480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8490AB423520D1D00D0A480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8490AB823520D1F00D0A480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8490AB923520D1F00D0A480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8490AC723520D1F00D0A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8490AC823520D1F00D0A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8490ACA23520D1F00D0A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520E58DC1CE92E1C813FEAD1 /* Pods-CrimeStream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT7AVU42UV;
+				INFOPLIST_FILE = CrimeStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.matscodes.CrimeStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8490ACB23520D1F00D0A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA49DFC73E63AF0889B6383 /* Pods-CrimeStream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT7AVU42UV;
+				INFOPLIST_FILE = CrimeStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.matscodes.CrimeStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8490ACD23520D1F00D0A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55271150F88DAB25F196A49 /* Pods-CrimeStreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT7AVU42UV;
+				INFOPLIST_FILE = CrimeStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.matscodes.CrimeStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrimeStream.app/CrimeStream";
+			};
+			name = Debug;
+		};
+		D8490ACE23520D1F00D0A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9D4117FF8841A2E42D9919 /* Pods-CrimeStreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT7AVU42UV;
+				INFOPLIST_FILE = CrimeStreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.matscodes.CrimeStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrimeStream.app/CrimeStream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8490AA723520D1D00D0A480 /* Build configuration list for PBXProject "CrimeStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8490AC723520D1F00D0A480 /* Debug */,
+				D8490AC823520D1F00D0A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8490AC923520D1F00D0A480 /* Build configuration list for PBXNativeTarget "CrimeStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8490ACA23520D1F00D0A480 /* Debug */,
+				D8490ACB23520D1F00D0A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8490ACC23520D1F00D0A480 /* Build configuration list for PBXNativeTarget "CrimeStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8490ACD23520D1F00D0A480 /* Debug */,
+				D8490ACE23520D1F00D0A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8490AA423520D1D00D0A480 /* Project object */;
+}
